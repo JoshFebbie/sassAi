@@ -4,6 +4,10 @@ import type { Metadata } from 'next'
 // import { Goldman } from 'next/font/google'
 import { Poppins } from 'next/font/google'
 import { ClerkProvider } from '@clerk/nextjs'
+import { ThemeProvider } from "@/components/theme-provider"
+
+
+
 
 // const inter = Inter({ subsets: ['latin'] })
 // const goldman = Goldman
@@ -28,7 +32,9 @@ export default function RootLayout({
   return (
     <ClerkProvider>
       <html lang="en">
-      <body className={poppins.className}>{children}</body>
+      <body className={poppins.className}>
+      <ThemeProvider attribute='class' defaultTheme='system'>{children}</ThemeProvider>
+      </body>
     </html>
     </ClerkProvider>
   )

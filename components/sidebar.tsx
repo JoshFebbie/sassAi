@@ -30,7 +30,7 @@ const routes = [
   lable: "Image Generation",
   icon: ImageIcon,
   href: "/image",
-  color: "text-[#7a108a]"
+  color: "text-[#BA972F]"
   },
   {
   lable: "Video Generation",
@@ -48,13 +48,13 @@ const routes = [
   lable: "Code Generation",
   icon: Code,
   href: "/code",
-  color: "text-[#ff6cab]"
+  color: "text-[#3aa4e6]"
   },
   {
   lable: "Settings",
   icon: Settings,
   href: "/settings",
-  color: "text-[#00ff6f]"
+  color: "text-white"
   },
 ]
 
