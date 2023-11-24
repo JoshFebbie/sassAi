@@ -12,35 +12,35 @@ const tools = [
     label: "Conversation",
     icon: MessageSquare,
     color: "text-[#ff6cab]",
-    bgColor: "bg-[#111827]",
+    bgColor: "bg-[#19243c]",
     href: "/conversation",
   },
   {
     label: "Image Generation",
     icon: ImageIcon,
     color: "text-[#BA972F]",
-    bgColor: "bg-[#111827]",
+    bgColor: "bg-[#19243c]",
     href: "/image",
   },
   {
     label: "Video Generation",
     icon: VideoIcon,
     color: "text-[#10498a]",
-    bgColor: "bg-[#111827]",
+    bgColor: "bg-[#19243c]",
     href: "/video",
   },
   {
     label: "Music Generation",
     icon: Music,
     color: "text-[#7a108a]",
-    bgColor: "bg-[#111827]",
+    bgColor: "bg-[#19243c]",
     href: "/music",
   },
   {
     label: "Code Generation",
     icon: Code,
     color: "text-[#3aa4e6]",
-    bgColor: "bg-[#111827]",
+    bgColor: "bg-[#19243c]",
     href: "/code",
   },
 ];
@@ -78,6 +78,7 @@ const DashboardPage = () => {
                 {tool.label}
               </div>
             </div>
+            
             <ArrowRight className="w-5 h-5" />
           </Card>
         ))}
