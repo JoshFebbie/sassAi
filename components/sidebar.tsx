@@ -62,7 +62,7 @@ const Sidebar = () => {
 //usePathname is a custom hook that returns the current pathname.
   const pathname = usePathname();
   return (
-    <div className="space-y-4 py-4 flex flex-col h-full bg-[#101622] text-white font">
+    <div className="space-y-4 py-4 flex flex-col h-full Sbg-[#3058ae] text-white font">
       <div className="px-3  flex-1">
         <Link
           href="/dashboard"
